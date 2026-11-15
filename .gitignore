@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 插件运行时数据（由 Host 生成）
+config.toml
+*.tmp
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

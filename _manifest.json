@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "主动对话 (Proactive Chat)",
+  "description": "私聊/群聊沉默后按随机间隔主动发起上下文感知、符合人设的对话；支持群冷场破冰、启动静默触发、未回复上限、免打扰时段与分段发送。移植自 astrbot_plugin_proactive_chat。",
+  "author": {
+    "name": "Pancakes-Labs (MaiBot port)",
+    "url": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat"
+  },
+  "license": "AGPL-3.0",
+  "urls": {
+    "repository": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat",
+    "homepage": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat",
+    "documentation": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat",
+    "issues": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat/issues"
+  },
+  "changelog": "CHANGELOG.md",
+  "host_application": {
+    "min_version": "1.3.0",
+    "max_version": "1.4.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "send.text",
+    "llm.generate",
+    "message.get_recent",
+    "chat.open_session",
+    "personality.get_current"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  },
+  "id": "pancakes.proactive-chat"
+}
