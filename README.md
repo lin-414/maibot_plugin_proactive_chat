@@ -78,7 +78,7 @@
 
 ## 数据文件
 
-位于 `data/plugins/pancakes.proactive-chat/`：
+位于 `data/plugins/github.lin-414.proactive-chat/`：
 
 - `session_data.json`：每会话的最后消息时间、未回复计数、下次触发时间、聊天流缓存与会话开关覆写；
 - `plugin_state.json`：全局开关覆写（`/主动对话开关 全局 on|off`）。

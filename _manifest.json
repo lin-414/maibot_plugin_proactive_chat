@@ -4,15 +4,15 @@
   "name": "主动对话 (Proactive Chat)",
   "description": "私聊/群聊沉默后按随机间隔主动发起上下文感知、符合人设的对话；支持群冷场破冰、启动静默触发、未回复上限、免打扰时段与分段发送。移植自 astrbot_plugin_proactive_chat。",
   "author": {
-    "name": "Pancakes-Labs (MaiBot port)",
-    "url": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat"
+    "name": "lin-414",
+    "url": "https://github.com/lin-414"
   },
   "license": "AGPL-3.0",
   "urls": {
-    "repository": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat",
-    "homepage": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat",
-    "documentation": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat",
-    "issues": "https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat/issues"
+    "repository": "https://github.com/lin-414/maibot_plugin_proactive_chat",
+    "homepage": "https://github.com/lin-414/maibot_plugin_proactive_chat",
+    "documentation": "https://github.com/lin-414/maibot_plugin_proactive_chat#readme",
+    "issues": "https://github.com/lin-414/maibot_plugin_proactive_chat/issues"
   },
   "changelog": "CHANGELOG.md",
   "host_application": {
@@ -24,6 +24,7 @@
     "max_version": "2.99.99"
   },
   "dependencies": [],
+  "plugin_type": "chat",
   "capabilities": [
     "send.text",
     "llm.generate",
@@ -37,5 +38,5 @@
       "zh-CN"
     ]
   },
-  "id": "pancakes.proactive-chat"
+  "id": "github.lin-414.proactive-chat"
 }
