@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "主动对话 (Proactive Chat)",
   "description": "私聊/群聊沉默后按随机间隔主动发起上下文感知、符合人设的对话；支持群冷场破冰、启动静默触发、未回复上限、免打扰时段与分段发送。移植自 astrbot_plugin_proactive_chat。",
   "author": {

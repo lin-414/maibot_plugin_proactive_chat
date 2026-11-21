@@ -98,6 +98,12 @@ class PluginSectionConfig(PluginConfigBase):
     __ui_order__ = 0
 
     enabled: bool = Field(default=False, description="是否启用主动对话插件")
+    # 宿主版本策略要求 [plugin] 配置节必须携带 config_version，缺失时插件加载失败
+    config_version: str = Field(
+        default="1.0.0",
+        description="插件配置结构版本号，配置结构变更时递增",
+        json_schema_extra={"hidden": True},
+    )
     default_platform: str = Field(
         default="qq",
         description="会话列表中裸 ID 与指令 scope 默认使用的平台标识",
